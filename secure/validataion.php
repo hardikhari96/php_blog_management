@@ -4,9 +4,9 @@
 
 class userQuery{
 	
-	private $server='localhost';
-	private $user='root';
-	private $pass='';
+	private $server='database.caqpvudztrju.eu-west-1.rds.amazonaws.com';
+	private $user='hardikhari96';
+	private $pass='harikrushna';
 	private $database='hp_db';
 	
 	public function connect()
