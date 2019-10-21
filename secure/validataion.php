@@ -4,7 +4,7 @@
 
 class userQuery{
 	
-	private $server='database.caqpvudztrju.eu-west-1.rds.amazonaws.com';
+	private $server='localhost';
 	private $user='hardikhari96';
 	private $pass='harikrushna';
 	private $database='hp_db';
