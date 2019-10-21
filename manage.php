@@ -52,24 +52,18 @@ if(isset($_GET['submit']) && $_GET['action'] == 'del' )
 } 
 	?>
 	
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
 
-<ul class="navbar-nav">
-<a class="navbar-brand" href="#">
-    Blog
-  </a>
-<li class="nav-item"><a class="nav-link" href="">Home </a></li>
-<li class="nav-item"><a class="nav-link" href="new.php">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="manage.php">manage</a></li>
-<li class="nav-item"><a class="nav-link"	 href="logout.php">Logout</a></li>
-
-	<form class="form-inline" action="">
-    <input class="form-control mr-sm-1" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
-  </form>
-
-</ul>
-</nav>
+				<ul class="navbar-nav">
+					<a class="navbar-brand" href="#">Blog</a>
+					<li class="nav-item"><a class="nav-link" href="index.php">Home </a></li>
+					<li class="nav-item"><a class="nav-link" href="new.php">New Entry</a></li>
+					<li class="nav-item"><a class="nav-link" href="manage.php">manage</a></li>
+					<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+				</ul>
+				
+			</nav>
 
 
 

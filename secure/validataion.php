@@ -83,7 +83,7 @@ class BlogOper extends userQuery{
 			$ins=$obj->query($query);
 			if($ins)
 			{
-				echo "Post is Inserted </br>";
+				echo "</br>Post is Inserted </br>";
 			}
 			else {
 				
