@@ -42,16 +42,16 @@ class userQuery{
 		}
 		else
 		{
-		$_SESSION['msg']="No such user is in our record , Kingly SignUp";
+		//$_SESSION['msg']="No such user is in our record , Kingly SignUp";
 			
-		echo "not fatched</br>";	
+		echo "not User</br>";	
 		}
 	}
-	public function signup($name,$uname,$pass)
+	public function signup($name,$uname,$pass):string
 	{
 		
 		$sql="insert into user(name,u_nm,u_pwd) values('".$name."','".$uname."','".$pass."');";
-		//echo $sql;
+		echo $sql."</br>";
 		$result = $this->connect()->query($sql);
 	
 		if ($result==TRUE) {

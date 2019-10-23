@@ -2,7 +2,7 @@
 <html>
 	<head>
 	
-	<title>Add New Entry</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<style>
@@ -28,6 +28,7 @@
 					<li class="nav-item"><a class="nav-link" href="new.php">New Entry</a></li>
 					<li class="nav-item"><a class="nav-link" href="manage.php">manage</a></li>
 					<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
 					<li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
 					
 				</ul>
@@ -35,26 +36,6 @@
 			</nav>
 <center>
 
-<?php
-
-	
-
-if(!isset($_SESSION['status']))
-{
-	echo $_SESSION['status'];
-	
-}
-else if(isset($_POST['submit']))
-{
-	
-require_once('secure/validataion.php');
-$obj=new userQuery();
-$obj->login($_POST['uid'],$_POST['pass']);
-
-}
-
-
-?>
 
 
 </br>
@@ -79,6 +60,25 @@ Password </td><td><input type="text" name="pass" /></td>
 </tr > 
 
 </table></form>
+
+
+<?php
+
+	
+
+
+if(isset($_POST['submit']))
+{
+	
+require_once('secure/validataion.php');
+$obj=new userQuery();
+$obj->login($_POST['uid'],$_POST['pass']);
+
+}
+
+
+?>
+
 </center>
 
 
