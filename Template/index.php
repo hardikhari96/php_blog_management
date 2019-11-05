@@ -8,28 +8,59 @@
 	<body>
 		
 		<div class="header">
-			<nav class="navbar">
-					<a class="navbar-brand" href="#">Blog Manage</a>
-					<ul>
-					<li class="nav-item"><a href="#" >Home</a></li>
-					<li class="nav-item"><a href="#">Blog</a></li>
-					<li class="nav-item"><a href="#">Login</a></li>
-					<li class="nav-item"><a href="#">Sign Up</a></li>
+			
+			<nav>	
+				
+				<ul class="navbar">
+					<li><a href="#">Blog Manage</a></li>	
+					<li><a href="#" >Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Sign Up</a></li>
+					<li style="float:right;"><a href="#" class="login">Login</a></li>
+					
 				</ul>
+
 			</nav>
 			
 		</div>
-	<div class="blog-row">
+		<div class="blog-container">
 
 				<div class="blog">
-					<h2> Title Heading</h2>
-					<h6>Time</h6>
-					<p>Descripteion</p>
-					<h6><a href="#">user</a></h6>
+					<h2>Blog TItle</h2>
+					<h3> Time</h3>
+					<p> Haeklkalkflkajlfkjadlkfkaljfa
+						fkjkldajfkljkdjaklfjkljalkjfasf
+						afasdkfakjflkajflkjaf
+						dfkjlkjfkljfkljlkfjdf</p>
+					
+					<a href="#">User</a>
+
 				</div>
-		
-	</div>
-	
+				
+				<div class="blog">
+					<h2>Blog TItle</h2>
+					<h3> Time</h3>
+					<p> Haeklkalkflkajlfkjadlkfkaljfa
+						fkjkldajfkljkdjaklfjkljalkjfasf
+						afasdkfakjflkajflkjaf
+						dfkjlkjfkljfkljlkfjdf</p>
+					
+					<a href="#">User</a>
+
+				</div>
+
+		</div>
+		<div class="pageno">
+				<ul>
+					<li><a href="">1</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">1</a></li>
+				</ul>
+		</div>
+
+		<div class="footer">
+		</div>
 	</body>
 	
 </html>
