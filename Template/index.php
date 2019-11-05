@@ -1,29 +1,34 @@
 <!Doctype html>
 <html lang="en">
 	<head>
-		<link rel="spreadsheet" src="css/style.css">
-		<link rel="spreadsheet" src="css/bootstrap.css">
-		<link rel="spreadsheet" src="css/bootstrap.min.css">
-		
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	
 	<body>
 		
-		<header>
-			<nav>
-				<ul>
-					<li><h2>Blog Manage</h2></li>
-					<li>Home</li>
-					<li>Blog</li>
-					<li>Login</li>
-					<li>Sign Up</li>
+		<div class="header">
+			<nav class="navbar">
+					<a class="navbar-brand" href="#">Blog Manage</a>
+					<ul>
+					<li class="nav-item"><a href="#" >Home</a></li>
+					<li class="nav-item"><a href="#">Blog</a></li>
+					<li class="nav-item"><a href="#">Login</a></li>
+					<li class="nav-item"><a href="#">Sign Up</a></li>
 				</ul>
 			</nav>
-		</header>
+			
+		</div>
+	<div class="blog-row">
+
+				<div class="blog">
+					<h2> Title Heading</h2>
+					<h6>Time</h6>
+					<p>Descripteion</p>
+					<h6><a href="#">user</a></h6>
+				</div>
 		
-		<script src="js/bootstrap.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		
+	</div>
 	
 	</body>
 	
