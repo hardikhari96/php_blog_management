@@ -1,0 +1,61 @@
+login 
+	user-manage post of their own
+	admin-Manage user post and user
+	super admin - manage admins
+signup
+	user sign up
+	
+Page -
+	Main Page : display Time Wise Blog
+	
+	user
+	
+		new post
+			text,Images
+		edit post/delete post
+	
+	admin	
+		
+		user post [filtered][delete]
+		user manage[add,delete]
+		
+	super admin
+		
+		admin manage [add,edit,delete]
+		
+----------------------------------------------------
+https://dbdiagram.io/d/5dc0f5dcedf08a25543d84af
+
+Database structure
+
+	blog_mng
+		
+			blog table
+			
+				blog no* 
+				blog date*
+				blog user*
+				blog text
+				blog image
+			
+			users
+				user_no
+				user username
+				user name
+				user email id
+				user password
+			admin
+				admin no*
+				admin username
+				admin emailid
+				admin password
+				admin name
+			super admin
+				su_id
+				su_username
+				su_password
+				su_emailid
+			
+				
+				
+		
