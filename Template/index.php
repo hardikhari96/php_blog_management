@@ -48,18 +48,21 @@
 					<a href="#">User</a>
 
 				</div>
+	
+				<div class="pageno" >
+					<ul>
+						<li><a href="">1</a></li>
+						<li><a href="">1</a></li>
+						<li><a href="">1</a></li>
+						<li><a href="">1</a></li>
+					</ul>
+				</div>
 
 		</div>
-		<div class="pageno">
-				<ul>
-					<li><a href="">1</a></li>
-					<li><a href="">1</a></li>
-					<li><a href="">1</a></li>
-					<li><a href="">1</a></li>
-				</ul>
-		</div>
+		
 
 		<div class="footer">
+			<p> This website designed and developed by Harikrusna Patel</p>
 		</div>
 	</body>
 	

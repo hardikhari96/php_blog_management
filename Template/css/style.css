@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #555;
 }
 
 
@@ -43,13 +42,17 @@ body {
 /* Blog Style  */
 
 .blog-container {
-    margin: 20px;
+    margin: 0px;
+    background-color: #555;
+    margin: 0px;
+    padding: 10px;
 }
 
 .blog {
     padding: 10px;
     margin: 10px;
     background-color: snow;
+    border-radius: 5px;
 }
 
 .blog p {
@@ -59,4 +62,31 @@ body {
 
 /* page no style */
 
-.pageno {}
+.pageno ul {
+    list-style-type: none;
+}
+
+.pageno ul li {
+    float: left;
+    display: block;
+    padding: 15px;
+    background-color: beige;
+    margin-left: 2px;
+    border-radius: 6px;
+}
+
+.pageno {
+    margin-left: 30%;
+    padding-bottom: 50px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+}
