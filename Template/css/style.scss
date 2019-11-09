@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+
+/* Nav style */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.login a {
+    color: #f1f1f1;
+}
+
+.login {
+    background-color: darkorange;
+}
+
+
+/* Blog Style  */
+
+.blog-container {
+    margin: 0px;
+    background-color: #555;
+    margin: 0px;
+    padding: 10px;
+}
+
+.blog {
+    padding: 10px;
+    margin: 10px;
+    background-color: snow;
+    border-radius: 5px;
+}
+
+.blog p {
+    font-size: 20px;
+}
+
+
+/* page no style */
+
+.pageno ul {
+    list-style-type: none;
+}
+
+.pageno ul li {
+    float: left;
+    display: block;
+    padding: 15px;
+    background-color: beige;
+    margin-left: 2px;
+    border-radius: 6px;
+}
+
+.pageno {
+    margin-left: 30%;
+    padding-bottom: 50px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+}
+
+.post-list {
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.list-item {
+    margin: 0 auto;
+}
+
+.list-item tr {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.list-item tr td,
+th {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list-item tr td textarea {
+    border: none;
+    border-radius: 10px;
+}
+
+.signup form table {
+    margin: 0 auto;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+.signup form h2 {
+    margin: 0 auto;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signup form table td input {
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.signup {
+    background-color: midnightblue;
+    width: 35%;
+    margin: 50px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+}
+
+.signup-container {
+    background-color: #000;
+    margin: 0px;
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/style.scss"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	
@@ -16,13 +17,13 @@
 					<li><a href="#" >Home</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Sign Up</a></li>
-					<li style="float:right;"><a href="#" class="login">Login</a></li>
+					<li style="float:right;"><a href="#" class="loginlink">Login</a></li>
 					
 				</ul>
 
 			</nav>
 			
-		</div>
+		</div>	
 		<div class="blog-container">
 
 				<div class="blog">
@@ -62,7 +63,7 @@
 		
 
 		<div class="footer">
-			<p> This website designed and developed by Harikrusna Patel</p>
+			<p> This website designed and developed by </br>Harikrusna Patel</p>
 		</div>
 	</body>
 	
