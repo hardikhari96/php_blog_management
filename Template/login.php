@@ -14,7 +14,7 @@
 					<li><a href="#" >Home</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Sign Up</a></li>
-					<li style="float:right;"><a href="#" class="loginlink">Login</a></li>				
+					<li style="float:right;"><a href="#" class="loginlink">Sign Up</a></li>				
                 </ul>
 			</nav>
         </div>
@@ -22,7 +22,9 @@
         <div class="logincontainer">
                 <div class="loginform">  
                     <h3>Login Here</h3>
-                    <table>
+                        <form action="#">
+                    <table> 
+                          
                             <tr>
                                 <td>Username/Email</td>
                                 <td><input type="input" name="id"></td>
@@ -33,9 +35,22 @@
                             </tr>
                             <tr>
                                 <td></td>
+                                <td>
+                                <select name="logintype">
+                                    <option>Login Type</option>
+                                    <option value="user">User</option>
+                                    <option value="admin">Admin</option>
+                                    <option value="sadmin">Super Admin</option>
+                                </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
                                 <td><button type="submit">Sign In</button></td>
                             </tr>
+                           
                     </table>
+                    </form>
                 </div>
                 
                 <div class="loginbrand">
